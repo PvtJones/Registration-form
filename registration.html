@@ -1,0 +1,80 @@
+
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+<h1>Registration form</h1>
+<form >
+	<label for="First Name">First Name:</label>
+	<input id="First Name" name="first_name" type="Text" placeholder="John" required>
+	<label for =Last Name"">Last Name:</label>
+	<input id="Last Name" name="Last_name" type="Text" placeholder="smith" required>
+
+	
+
+	<div>
+	<label for="male">Male</label>
+	<input id="male" name="select_choice" type="radio" value="1">
+	<label for="Female">Female</label>
+	<input id="Female" name="select_choice" type="radio" value="2" >
+	<label for="Other">Other</label>
+	<input id="other" name="select_choice" type="radio" value="3">
+	</div>
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" type="email" placeholder="your email" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password" pattern="{5,10}" title="5 to  10 charcters required" required>
+
+	</div>
+	<div>
+		<label>Birthday:</label>
+		<select name="Month">
+			<option>Month</option>
+			<option>jan</option>
+			<option>feb</option>
+			<option>mar</option>
+			<option>apr</option>
+			<option>may</option>
+			<option>june</option>
+			<option>july</option>
+			<option>aug</option>
+		</select>
+		<select name="Day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+		</select>
+
+		<select name="year">
+			<option>Year</option>
+			<option>2010</option>
+			<option>2011</option>
+			<option>2012</option>
+			<option>2013</option>
+			<option>2014</option>
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+		</select>
+
+	</div>
+	<div>
+		<label for="agree">I agree to the term and condition</label>
+		<input type="checkbox" required>
+	</div>
+
+
+	<input type="Submit">
+</form>
+
+</body>
+
+</html>
